@@ -2,8 +2,10 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
 
+  message = "I BUILT THIS!"
+
   get '/' do 
-    "Welcome to your app!!!! "
+    "Started my server using Shotgun!"
   end
 
 end
